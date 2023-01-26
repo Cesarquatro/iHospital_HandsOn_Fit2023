@@ -1,29 +1,28 @@
 import cv2
-
-a = ""
-#abrir a camera
+import numpy as np
+from pyzbar.pyzbar import decode
+ 
+#img = cv2.imread('1.png')
 cap = cv2.VideoCapture(1)
-
-# initialize the cv2 QRCode detector
-detector = cv2.QRCodeDetector()
-
+cap.set(3,640)
+cap.set(4,480)
+ 
 while True:
-    # read the image
-    _, img = cap.read()
-    
-    # detect and decode
-    data, bbox, _ = detector.detectAndDecode(img)
-    # check if there is a QRCode in the image
-    if data:
-        a=data
+ 
+    success, img = cap.read()
+    for barcode in decode(img):
+        myData = barcode.data.decode('utf-8')
+        print(myData)
+        pts = np.array([barcode.polygon],np.int32)
+        pts = pts.reshape((-1,1,2))
+        cv2.polylines(img,[pts],True,(255,0,255),5)
+        pts2 = barcode.rect
+        cv2.putText(img,myData,(pts2[0],pts2[1]),cv2.FONT_HERSHEY_SIMPLEX, 0.9,(255,0,255),2)
+
+    cv2.imshow('Result',img)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-    cv2.imshow("QRCODEscanner", img)    
-
-    if cv2.waitKey(1) == ord("q"):
-        break
-  
-    if a != "":
-        print(a)
+# When everything done, release the capture
 cap.release()
 cv2.destroyAllWindows()
