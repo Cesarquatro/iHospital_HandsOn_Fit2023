@@ -1,3 +1,8 @@
+#Esse código foi primeiramente escrito no google collab
+#segue o link do google collab para melhor visualização
+
+#https://colab.research.google.com/drive/1X6jaWo3tEurlu2cmCJ0SQgO6GLcUc4OK?usp=sharing
+
 import qrcode #pip install qrcode[pil]
 import os
 
