@@ -3,6 +3,7 @@ import 'home.dart';
 import 'login.dart';
 import 'menu.dart';
 import 'dart:math';
+import 'pedir.dart';
 
 void main() {
   runApp(
@@ -20,7 +21,7 @@ class meuapp extends StatelessWidget {
       routes: {
         "/": (context) => login(), //rota inicial
         "home": (context) => home(),
-        //"pagina2": (context) => pagina2(),
+        "pedir": (context) => pedir(),
         //"pagina3": (context) => pagina3(),
       },
     );

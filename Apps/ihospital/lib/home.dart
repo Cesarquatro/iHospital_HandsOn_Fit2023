@@ -29,7 +29,7 @@ class home extends StatelessWidget {
               children: [
                 GestureDetector(
                   onTap: () {
-                    //Navigator.popAndPushNamed(context, "pedir");
+                    Navigator.popAndPushNamed(context, "pedir");
                     print("Botão Pedir");
                   },
                   child: Container(

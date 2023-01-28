@@ -21,6 +21,12 @@ class menu extends StatelessWidget {
         ),
         TextButton(
           onPressed: () {
+            Navigator.popAndPushNamed(context, "pedir");
+          },
+          child: Text("Pedir"),
+        ),
+        TextButton(
+          onPressed: () {
             Navigator.popAndPushNamed(context, "/");
           },
           child: Text("Logout"),
