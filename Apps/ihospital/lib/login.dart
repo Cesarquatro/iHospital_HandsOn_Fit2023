@@ -16,6 +16,15 @@ class login extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Text(
+                "iHospital",
+                style: TextStyle(
+                  fontFamily: 'Comfortaa',
+                  fontSize: 50,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),
+              ),
               Icon(
                 Icons.local_hospital,
                 size: 160,
