@@ -96,6 +96,39 @@ class pedir extends StatelessWidget {
               ),
             ),
             Padding(padding: EdgeInsets.all(5)),
+            GestureDetector(
+              onTap: () {
+                print("Botão fazer pedido");
+              },
+              child: Container(
+                height: 70,
+                width: 300,
+                decoration: BoxDecoration(
+                  color: Color.fromARGB(225, 41, 37, 86),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Padding(padding: EdgeInsets.all(10)),
+                    Text(
+                      "Realizar pedido",
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                      ),
+                    ),
+                    Padding(padding: EdgeInsets.all(45)),
+                    Icon(
+                      Icons.send,
+                      size: 30,
+                      color: Colors.white,
+                    ),
+                  ],
+                ),
+              ),
+            ),
           ],
         ),
       ),
