@@ -63,7 +63,7 @@ class home extends StatelessWidget {
                 Padding(padding: EdgeInsets.all(10)),
                 GestureDetector(
                   onTap: () {
-                    //Navigator.popAndPushNamed(context, "pedir");
+                    Navigator.popAndPushNamed(context, "pedidos");
                     print("Botão Pedidos");
                   },
                   child: Container(

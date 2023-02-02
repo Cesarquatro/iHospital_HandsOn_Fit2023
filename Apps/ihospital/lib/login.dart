@@ -59,7 +59,7 @@ class login extends StatelessWidget {
               Padding(padding: EdgeInsets.all(15)),
               TextButton(
                 onPressed: () {
-                  if (usuario == "Cesarquatro" && senha == "handson1234") {
+                  if (usuario == "fit" && senha == "1234") {
                     print("Login Autorizado");
                     Navigator.popAndPushNamed(context, "home");
                   } else {

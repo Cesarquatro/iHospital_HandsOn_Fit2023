@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ihospital/pedidos.dart';
 import 'home.dart';
 import 'login.dart';
 import 'menu.dart';
@@ -22,7 +23,7 @@ class meuapp extends StatelessWidget {
         "/": (context) => login(), //rota inicial
         "home": (context) => home(),
         "pedir": (context) => pedir(),
-        //"pagina3": (context) => pagina3(),
+        "pedidos": (context) => pedidos(),
       },
     );
   }
