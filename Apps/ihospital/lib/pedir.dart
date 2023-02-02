@@ -2,13 +2,14 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:mqtt_client/mqtt_server_client.dart';
+import 'cloud.dart';
 import 'menu.dart';
 import 'package:mqtt_client/mqtt_client.dart';
 
 String valor = '';
 
 class pedir extends StatelessWidget {
-  String? pedido;
+  String pedido = '';
   final dropValue = ValueNotifier('');
   final roomOptions = <String>[
     'room_1',
@@ -90,7 +91,7 @@ class pedir extends StatelessWidget {
               child: TextField(
                 onChanged: (value) {
                   pedido = value;
-                  print("$pedido");
+                  print("Pedido: $pedido");
                 },
                 keyboardType: TextInputType.name,
                 decoration: InputDecoration(
@@ -105,6 +106,8 @@ class pedir extends StatelessWidget {
             GestureDetector(
               onTap: () {
                 print("Botão fazer pedido");
+                print("Pedido enviado: $pedido");
+                MQTT_pub(pedido);
               },
               child: Container(
                 height: 70,
