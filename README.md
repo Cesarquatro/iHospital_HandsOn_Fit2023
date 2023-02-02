@@ -28,5 +28,10 @@ Após, foi realizada uma pesquisa na plataforma de empregos [indeed] com palavra
 [OpenCV]: https://docs.opencv.org/2.4/modules/core/doc/intro.html
 [pyzbar]: https://github.com/NaturalHistoryMuseum/pyzbar/
 [MQTTBox]: https://chrome.google.com/webstore/detail/mqttbox/kaajoficamnjijhkeomgfljpicifbkaf
+
+<br><br><img src="README_img\prot1.jpg" alt="prototipo_img1"><br>**Figura 5** - Protótipo.
+<br><br><img src="README_img\prot2.jpg" alt="prototipo_img2"><br>**Figura 6** - Protótipo.
+<br><br><img src="README_img\prot3.jpg" alt="prototipo_img3"><br>**Figura 7** - Protótipo.
+<br><br><img src="README_img\prot4.jpg" alt="prototipo_img4"><br>**Figura 8** - Protótipo.
 	
 </div>
