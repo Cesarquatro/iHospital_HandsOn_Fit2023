@@ -301,9 +301,9 @@ class _mqttOnState extends State<mqttOn> {
     /// Lets publish to our topic
     /// Use the payload builder rather than a raw buffer
     /// Our known topic to publish to
-    const pubTopic = 'Dart/Mqtt_client/testtopic';
+    const pubTopic = 'iHospital';
     final builder = MqttClientPayloadBuilder();
-    builder.addString('Hello from mqtt_client');
+    builder.addString('Conectado');
 
     /// Subscribe to it
     print('EXAMPLE::Subscribing to the Dart/Mqtt_client/testtopic topic');
@@ -344,6 +344,7 @@ class _mqttOnState extends State<mqttOn> {
     } else {
       print(
           'EXAMPLE::OnDisconnected callback is unsolicited or none, this is incorrect - exiting');
+      client.disconnect();
       exit(-1);
     }
     if (pongCount == 3) {
