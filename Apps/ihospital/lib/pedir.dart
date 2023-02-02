@@ -10,6 +10,7 @@ String valor = '';
 
 class pedir extends StatelessWidget {
   String pedido = '';
+  String room = '';
   final dropValue = ValueNotifier('');
   final roomOptions = <String>[
     'room_1',
@@ -73,6 +74,7 @@ class pedir extends StatelessWidget {
                     value: (value.isEmpty) ? null : value,
                     onChanged: (escolha) =>
                         dropValue.value = escolha.toString(),
+                    dropValue.room = escolha.toString(),
                     items: roomOptions
                         .map(
                           (opcao) => DropdownMenuItem(
@@ -91,6 +93,7 @@ class pedir extends StatelessWidget {
               child: TextField(
                 onChanged: (value) {
                   pedido = value;
+                  pedido = room + pedido;
                   print("Pedido: $pedido");
                 },
                 keyboardType: TextInputType.name,

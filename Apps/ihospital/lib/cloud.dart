@@ -141,7 +141,7 @@ class _mqttOnState extends State<mqttOn> {
           children: [
             Padding(padding: EdgeInsets.all(15)),
             Text(
-              "LigarMQTT",
+              "Conectar MQTT",
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
