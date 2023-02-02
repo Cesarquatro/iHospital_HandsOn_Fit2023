@@ -13,8 +13,10 @@ Após, foi realizada uma pesquisa na plataforma de empregos [indeed] com palavra
 	
  [indeed]: https://br.indeed.com/
 	
-- **Ideia**:<br>&nbsp;&nbsp;&nbsp;&nbsp;Por meio de um aplicativo desenvolvido em flutter, o funcionário pode solicitar remédios, equipamentos, documentos ou outros materiais para uso. Tais solicitações são enviadas um painel no almoxarifado ou farmácia via protocolo MQTT, por tratar-se de um protocolo simples e robusto, implementado via Wi-Fi na rede do hospital.<br>&nbsp;&nbsp;&nbsp;&nbsp;Com isso, o app envia os pedidos por meio de MQTT publisher para um broker MQTT. Ao receber o pedido, um atendente vai preparar o pacote para entrega, descrevendo o pedido e o destino em uma tag NFC no pacote.
+- **Ideia**:<br>&nbsp;&nbsp;&nbsp;&nbsp;Por meio de um aplicativo desenvolvido em flutter, o funcionário pode solicitar remédios <img src="README_img\remedio.svg" width="17" height="17" alt="remedio" />, equipamentos <img src="README_img\ferramenta.svg" width="20" height="20" alt="ferramenta" />, documentos <img src="README_img\documentos.svg" width="19" height="19" alt="documento" /> ou outros materiais para uso. Tais solicitações são enviadas um painel no almoxarifado ou farmácia via protocolo MQTT, por tratar-se de um protocolo simples e robusto, implementado via Wi-Fi na rede do hospital.<br>&nbsp;&nbsp;&nbsp;&nbsp;Com isso, o app envia os pedidos por meio de MQTT publisher para um broker MQTT. Ao receber o pedido, um atendente vai preparar o pacote para entrega, descrevendo o pedido e o destino em uma tag NFC no pacote.
 
 	
-- **Protótipo (Handson)**:<br><img src="README_img\Vagas_indeed.png" width="1389" height="500" alt="indeed"><br>**Figura 1** - Vagas para jovens-prendizes em hospitais.
+- **Protótipo (Handson)**:<br><img src="README_img\prototipo_montado.png" width="930" height="716" alt="indeed"><br>**Figura 2** - Modelo 3D do protótipo usado demonstrado no Handson.<br><img src="README_img\Schematic_iHospital.png" width="1169" height="826" alt="indeed"><br>**Figura 3** - Esquemático da PCI do protótipo feita no [easyEDA].
+	
+[easyEDA]: https://oshwlab.com/luiz.acciari/ihospital
 </div>
