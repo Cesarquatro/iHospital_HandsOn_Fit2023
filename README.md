@@ -67,6 +67,10 @@ Após, foi realizada uma pesquisa na plataforma de empregos [indeed] com palavra
     <td>01</td>
     <td>Webcam USB</td>
   </tr>
+	  <tr>
+    <td>01</td>
+    <td>Power bank 5V</td>
+  </tr>
 </table>
 
 </body>
