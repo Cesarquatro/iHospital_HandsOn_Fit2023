@@ -36,6 +36,54 @@ Após, foi realizada uma pesquisa na plataforma de empregos [indeed] com palavra
 [pyzbar]: https://github.com/NaturalHistoryMuseum/pyzbar/
 [Mosquitto]: https://mosquitto.org/
 
+	
+	<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h1>Tabela de componentes<br>eletrônicos do protótipo:</h1>
+
+<table>
+  <tr>
+    <th>Quantidade</th>
+    <th>Material</th>
+  </tr>
+  <tr>
+    <td>01</td>
+    <td>Arduino Uno</td>
+  </tr>
+  <tr>
+    <td>01</td>
+    <td>Raspberry Pi 3</td>
+  </tr>
+  <tr>
+    <td>01</td>
+    <td>Ponte H L298N</td>
+  </tr>
+  <tr>
+    <td>02</td>
+    <td>Motores DC 5V</td>
+  </tr>
+  <tr>
+    <td>01</td>
+    <td>Módulo Sensor RFID MFRC522</td>
+  </tr>
+  <tr>
+    <td>01</td>
+    <td>Webcam USB</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
 <br><img src="README_img\prot1.jpg" alt="prototipo_img1"><br>**Figura 5** - Protótipo.
 <br><br><img src="README_img\prot2.jpg" alt="prototipo_img2"><br>**Figura 6** - Protótipo.
 <br><br><img src="README_img\prot3.jpg" alt="prototipo_img3"><br>**Figura 7** - Protótipo.
