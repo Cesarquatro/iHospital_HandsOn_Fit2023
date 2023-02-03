@@ -1,7 +1,7 @@
 # iHospital-HandsOn-Fit2023
 <div style="text-align: justify"> 
 	
-- **Nossa proposta**:<br>&nbsp;&nbsp;&nbsp;&nbsp;Sistema de entregas interno nos hospitais composto por robôs autônomos inspirados nos AGVs (*automated guided vehicles*), juntamente com aplicativos para a realização de pedidos, o acompanhamento e supervisão dos robôs. 
+- **Nossa proposta**:<br>&nbsp;&nbsp;&nbsp;&nbsp; Nossa ideia busca resolver um problema na área da **Saúde** através de um sistema de entregas interno nos hospitais composto por robôs autônomos inspirados nos AGVs (*automated guided vehicles*), juntamente com aplicativos para a realização de pedidos, o acompanhamento e supervisão dos robôs. 
 
 - **Situação Atual**:<br>&nbsp;&nbsp;&nbsp;&nbsp;No âmbito global, durante o início da pandemia de COVID-19<img src="README_img\covid19.svg" width="17" height="17" alt="covid" /> na China foram utilizados robôs de entrega hospitalares[[1]]. Já no cenário brasileiro <img src="README_img\brazil.svg" width="17" height="17" alt="brazil" />, o sistema de logística de remédios e componentes hospitalares ainda é muito burocrático e manual, o que acarreta em maior probabilidades de erros humanos.<br>&nbsp;&nbsp;&nbsp;&nbsp;Ao realizar uma pesquisa interna com profissionais de saúde, notou-se que vários hospitais possuem funcionários (mensageiros), normalmente jovens aprendizes, dedicados exlusivamente para essa tarefa.
 Após, foi realizada uma pesquisa na plataforma de empregos [indeed] com palavras-chaves “jovem aprendiz hospital”, notou-se que várias vagas apresentavam atribuições de logística de entregas internas nos hospitais.
@@ -22,7 +22,7 @@ Após, foi realizada uma pesquisa na plataforma de empregos [indeed] com palavra
 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;Já o App possui: <br>&nbsp;&nbsp;&nbsp;&nbsp;-Tela de Login para o funcionário onde é importante destacar que por se tratar de um protótipo, não possui nenhum tipo de criptografia;<br>&nbsp;&nbsp;&nbsp;&nbsp;-Tela Home, onde terá as opções para o funcionário e apenas as opções **pedir** e **pedidos** estarão funcionando no protótipo;<br>&nbsp;&nbsp;&nbsp;&nbsp;-Tela para realizar os pedidos com 2 campos: "*Room*(quarto)" - para selecionar o quarto de entrega e "Pedido" - para escrever o predido;<br>&nbsp;&nbsp;&nbsp;&nbsp;-Tela Pedidos - para acompanhar o último pedido realizado;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;Para realizar o pedido foi utilizado o protocolo MQTT juntamente com um broker, o [Mosquitto].
 
-<br><img src="README_img\Telas.png" alt="telas"><br>**Figura 4** - Telas do aplicativo
+<br><img src="README_img\Telas.png" alt="telas"><br>**Figura 4** - Telas do aplicativo.
 
 [easyEDA]: https://oshwlab.com/luiz.acciari/ihospital
 [OpenCV]: https://docs.opencv.org/2.4/modules/core/doc/intro.html
