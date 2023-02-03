@@ -74,7 +74,7 @@ class pedir extends StatelessWidget {
                     value: (value.isEmpty) ? null : value,
                     onChanged: (escolha) =>
                         dropValue.value = escolha.toString(),
-                    dropValue.room = escolha.toString(),
+                    //dropValue.room = escolha.toString(),
                     items: roomOptions
                         .map(
                           (opcao) => DropdownMenuItem(

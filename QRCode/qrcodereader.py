@@ -4,7 +4,7 @@ from pyzbar.pyzbar import decode
  
 #img = cv2.imread('1.png')
 cap = cv2.VideoCapture(1)
-cap.set(3,640)
+cap.set(3, 640)
 cap.set(4,480)
  
 while True:
