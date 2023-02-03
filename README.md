@@ -36,18 +36,6 @@ Após, foi realizada uma pesquisa na plataforma de empregos [indeed] com palavra
 [pyzbar]: https://github.com/NaturalHistoryMuseum/pyzbar/
 [Mosquitto]: https://mosquitto.org/
 
-	
-	<!DOCTYPE html>
-<html>
-<head>
-<style>
-table, th, td {
-  border: 1px solid black;
-}
-</style>
-</head>
-<body>
-
 <h1>Tabela de componentes<br>eletrônicos do protótipo:</h1>
 
 <table>
