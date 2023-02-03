@@ -22,7 +22,7 @@ Após, foi realizada uma pesquisa na plataforma de empregos [indeed] com palavra
 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;Já o App possui: <br>&nbsp;&nbsp;&nbsp;&nbsp;-Tela de Login para o funcionário onde é importante destacar que por se tratar de um protótipo, não possui nenhum tipo de criptografia;<br>&nbsp;&nbsp;&nbsp;&nbsp;-Tela Home, onde terá as opções para o funcionário e apenas as opções **pedir** e **pedidos** estarão funcionando no protótipo;<br>&nbsp;&nbsp;&nbsp;&nbsp;-Tela para realizar os pedidos com 2 campos: "*Room*(quarto)" - para selecionar o quarto de entrega e "Pedido" - para escrever o predido;<br>&nbsp;&nbsp;&nbsp;&nbsp;-Tela Pedidos - para acompanhar o último pedido realizado;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;Para realizar o pedido foi utilizado o protocolo MQTT juntamente com um broker, o [Mosquitto].
 
-<br><img src="README_img\Telas.png" alt="telas"><br>**Figura 4** - Telas do aplicativo.
+<br><img src="README_img\Telas.png" alt="telas"><br>**Figura 4** - Telas do aplicativo
 
 [easyEDA]: https://oshwlab.com/luiz.acciari/ihospital
 [OpenCV]: https://docs.opencv.org/2.4/modules/core/doc/intro.html
