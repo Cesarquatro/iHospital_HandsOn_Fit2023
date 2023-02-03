@@ -1,8 +1,12 @@
 # iHospital-HandsOn-Fit2023
 <div style="text-align: justify"> 
 
-- **Pitch**:
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/zna1qazcHKg)
+- **Pitch** no YouTube:
+	
+<a href="https://youtu.be/zna1qazcHKg" target="_blank">
+ <img src="README_img\thumbnail.png" alt="Assista nosso Pitch" width="1080" height="530" border="10" />
+</a>
+
 
 - **Nossa proposta**:<br>&nbsp;&nbsp;&nbsp;&nbsp; Nossa ideia busca resolver um problema na área da **Saúde** através de um sistema de entregas interno nos hospitais composto por robôs autônomos inspirados nos AGVs (*automated guided vehicles*), juntamente com aplicativos para a realização de pedidos, o acompanhamento e supervisão dos robôs. 
 
