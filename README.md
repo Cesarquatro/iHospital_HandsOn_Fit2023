@@ -36,9 +36,15 @@ Após, foi realizada uma pesquisa na plataforma de empregos [indeed] com palavra
 [pyzbar]: https://github.com/NaturalHistoryMuseum/pyzbar/
 [Mosquitto]: https://mosquitto.org/
 
-<br><br><img src="README_img\prot1.jpg" alt="prototipo_img1"><br>**Figura 5** - Protótipo.
+<br><img src="README_img\prot1.jpg" alt="prototipo_img1"><br>**Figura 5** - Protótipo.
 <br><br><img src="README_img\prot2.jpg" alt="prototipo_img2"><br>**Figura 6** - Protótipo.
 <br><br><img src="README_img\prot3.jpg" alt="prototipo_img3"><br>**Figura 7** - Protótipo.
 <br><br><img src="README_img\prot4.jpg" alt="prototipo_img4"><br>**Figura 8** - Protótipo.
+<br><br><img src="README_img\Prototipo_01.jpg" alt="Prototipo_01"><br>**Figura 9** - Protótipo.
+<br><br><img src="README_img\Prototipo_02.jpg" alt="Prototipo_02"><br>**Figura 10** - Protótipo.
+<br><br><img src="README_img\Prototipo_03.jpg" alt="Prototipo_03"><br>**Figura 11** - Protótipo.
+<br><br><img src="README_img\Prototipo_04.jpg" alt="Prototipo_04"><br>**Figura 12** - Protótipo.
+<br><br><img src="README_img\Prototipo_05.jpg" alt="Prototipo_05"><br>**Figura 13** - Protótipo.
+<br><br><img src="README_img\Prototipo_06.jpg" alt="Prototipo_06"><br>**Figura 14** - Protótipo.
 	
 </div>
