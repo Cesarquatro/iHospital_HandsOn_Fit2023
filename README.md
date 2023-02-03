@@ -20,14 +20,14 @@ Após, foi realizada uma pesquisa na plataforma de empregos [indeed] com palavra
 
 <br><img src="README_img\prototipo_montado.png" width="930" height="716" alt="indeed"><br>**Figura 2** - Modelo 3D do protótipo usado demonstrado no Handson.<br><br><img src="README_img\Schematic_iHospital.png" alt="indeed"><br>**Figura 3** - Esquemático da PCI do protótipo feita no [easyEDA].
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;Já o App possui: <br>&nbsp;&nbsp;&nbsp;&nbsp;-Tela de Login para o funcionário onde é importante destacar que por se tratar de um protótipo, não possui nenhum tipo de criptografia;<br>&nbsp;&nbsp;&nbsp;&nbsp;-Tela Home, onde terá as opções para o funcionário e apenas a opção **pedir** estará funcionando no protótipo;<br>&nbsp;&nbsp;&nbsp;&nbsp;-Tela para realizar os pedidos com 2 campos: "*Room*(quarto)" - para selecionar o quarto de entrega e "Pedido" - para escrever o predido;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;Para realizar o pedido foi utilizado o protocolo MQTT juntamente com um broker, o [MQTTBox].
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Já o App possui: <br>&nbsp;&nbsp;&nbsp;&nbsp;-Tela de Login para o funcionário onde é importante destacar que por se tratar de um protótipo, não possui nenhum tipo de criptografia;<br>&nbsp;&nbsp;&nbsp;&nbsp;-Tela Home, onde terá as opções para o funcionário e apenas a opção **pedir** estará funcionando no protótipo;<br>&nbsp;&nbsp;&nbsp;&nbsp;-Tela para realizar os pedidos com 2 campos: "*Room*(quarto)" - para selecionar o quarto de entrega e "Pedido" - para escrever o predido;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;Para realizar o pedido foi utilizado o protocolo MQTT juntamente com um broker, o [Mosquitto].
 
 <br><img src="README_img\Telas.png" alt="telas"><br>**Figura 4** - Telas do aplicativo.
 
 [easyEDA]: https://oshwlab.com/luiz.acciari/ihospital
 [OpenCV]: https://docs.opencv.org/2.4/modules/core/doc/intro.html
 [pyzbar]: https://github.com/NaturalHistoryMuseum/pyzbar/
-[MQTTBox]: https://chrome.google.com/webstore/detail/mqttbox/kaajoficamnjijhkeomgfljpicifbkaf
+[Mosquitto]: https://mosquitto.org/
 
 <br><br><img src="README_img\prot1.jpg" alt="prototipo_img1"><br>**Figura 5** - Protótipo.
 <br><br><img src="README_img\prot2.jpg" alt="prototipo_img2"><br>**Figura 6** - Protótipo.
