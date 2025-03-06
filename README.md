@@ -4,7 +4,7 @@
 - **Pitch** no YouTube:
 	
 <a href="https://youtu.be/zna1qazcHKg" target="_blank">
- <img src="README_img\thumbnail.png" alt="Assista nosso Pitch" width="1080" height="530" border="10" />
+ <img src="README_img\thumbnail.png" alt="Assista nosso Pitch" width="560" height="315" border="10" />
 </a>
 
 
